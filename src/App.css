@@ -1,0 +1,18 @@
+:root {
+  --fontsize-p: 20px;
+  --fontsize-nav: 18px;
+}
+
+* { /*reset browser*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: auto !important;
+}
+
